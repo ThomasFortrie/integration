@@ -4,8 +4,28 @@ nav{
     
 }
 
-a{
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.flexItem1{
+    flex : 3;
+    text-align: center;
+    border: 1px solid;
+    
+}
+.flexItem2{
+    flex: 1;
+    text-align: center;
+    border: 1px solid;
+    max-width: 200px;
 
+}
+.container > div{
+    margin: 5px;
 }
 .menuLink{
     text-decoration: none;
