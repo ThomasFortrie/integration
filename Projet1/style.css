@@ -1,15 +1,80 @@
+@media (max-width: 600px){
+    .image{
+        height: auto;
+        width: 300px;
+    }
+    nav{
+
+        /**  background-color: dimgray;  **/
+          
+      }
+      
+      .container{
+          display: flex;
+          flex-direction: row;
+         /** flex-wrap: wrap; **/
+          justify-content: center;
+          align-content: center;
+          margin-top: 5%;
+      }
+      .flexItem1{
+          flex : 3;
+          text-align: center;
+          border: 1px solid;
+          
+      }
+      .flexItem2{
+          flex: 1;
+          text-align: center;
+          border: 1px solid;
+          max-width: 30%;
+          min-width: 150px;
+      
+      }
+      .container > div{
+          margin: 5px;
+      }
+      .menuLink{
+          text-decoration: none;
+          font-size: medium;
+          transition:font-size 0.5s;
+          color: black;
+          font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+          'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+          font-weight: bold;
+      }
+      .menuLink:hover{
+      
+          font-size:x-large;
+      }
+      ul{
+          display: flex;
+          flex-direction: row;
+          justify-content: flex-end;
+      }
+      li{
+          margin-left: 4%;
+          list-style-type: none;
+      }
+}
+@media (min-width: 601px){
 nav{
 
   /**  background-color: dimgray;  **/
     
 }
+.image{
+    height: auto;
+    width: 500px;
+}
 
 .container{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+   /** flex-wrap: wrap; **/
     justify-content: center;
     align-content: center;
+    margin-top: 5%;
 }
 .flexItem1{
     flex : 3;
@@ -21,7 +86,8 @@ nav{
     flex: 1;
     text-align: center;
     border: 1px solid;
-    max-width: 200px;
+    max-width: 30%;
+    min-width: 200px;
 
 }
 .container > div{
@@ -48,4 +114,6 @@ ul{
 li{
     margin-left: 4%;
     list-style-type: none;
+}
+
 }
