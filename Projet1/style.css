@@ -56,6 +56,9 @@
           margin-left: 4%;
           list-style-type: none;
       }
+      h4{
+        font-weight:100;
+      }
 }
 @media (min-width: 601px){
 nav{
@@ -88,6 +91,8 @@ nav{
     border: 1px solid;
     max-width: 30%;
     min-width: 200px;
+    display: flex;
+    flex-direction: column;
 
 }
 .container > div{
@@ -115,5 +120,12 @@ li{
     margin-left: 4%;
     list-style-type: none;
 }
+h4{
+    font-weight:100;
+  }
+  .inputLoupe{
+    border: 1px solid;
+  }
+  
 
 }
