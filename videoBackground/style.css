@@ -18,6 +18,7 @@
 .flexTest{
     flex:1;
     text-align: center;
+
 }
 #flex1{
 
@@ -29,6 +30,12 @@ color: white;
 font-family: 'retro', sans-serif;
 border: 2px ridge white;
 opacity: 50%;
+
+position: absolute;
+top: 40%;
+
+padding-left: 5%;
+padding-right: 5%;
 
 }
 #flex3{
