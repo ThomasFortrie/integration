@@ -29,7 +29,7 @@ border-radius: 15px;
 color: white;
 font-family: 'retro', sans-serif;
 border: 2px ridge white;
-opacity: 50%;
+opacity: 30%;
 
 position: absolute;
 top: 40%;
@@ -37,6 +37,17 @@ top: 40%;
 padding-left: 5%;
 padding-right: 5%;
 
+}
+a{
+    color: white;
+    font-family: 'retro', sans-serif;
+    font-size: large;
+    opacity: 100%;
+    
+}
+a > p:hover {
+    transition-duration: 500ms;
+    transform: rotate(360deg);
 }
 #flex3{
 
